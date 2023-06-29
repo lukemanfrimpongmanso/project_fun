@@ -1,0 +1,15 @@
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/bin/Debug/net7.0/Persistence.deps.json
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/bin/Debug/net7.0/Persistence.dll
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/bin/Debug/net7.0/Persistence.pdb
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/bin/Debug/net7.0/Domain.dll
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/bin/Debug/net7.0/Domain.pdb
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.csproj.AssemblyReference.cache
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfoInputs.cache
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.AssemblyInfo.cs
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.csproj.CopyComplete
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.dll
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/refint/Persistence.dll
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/Persistence.pdb
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Persistence/obj/Debug/net7.0/ref/Persistence.dll

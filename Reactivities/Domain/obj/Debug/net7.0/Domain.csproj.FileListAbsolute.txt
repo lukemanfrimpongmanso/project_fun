@@ -1,0 +1,12 @@
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/bin/Debug/net7.0/Domain.dll
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/Domain.dll
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/lukemanfrimpong/Documents/projectFunC/project_fun/Reactivities/Domain/obj/Debug/net7.0/ref/Domain.dll
