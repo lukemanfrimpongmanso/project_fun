@@ -1,20 +1,20 @@
 using Domain;
 using MediatR;
 using Persistence;
-using System.Threading;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+
 
 
 namespace Application.Activities
 {
     public class Create
     {
-        public class Command : IRequest
+        public class Command : IRequest<Unit>
         {
             public Activity Activity{get; set;}
         }
 
-        public class Handler : IRequestHandler<Command>
+        public class Handler : IRequestHandler<Command, Unit>
         {
             private readonly DataContext _context;
                         public Handler(DataContext context)
@@ -30,10 +30,7 @@ namespace Application.Activities
                 return Unit.Value;
             }
 
-            Task IRequestHandler<Command>.Handle(Command request, CancellationToken cancellationToken)
-            {
-                throw new NotImplementedException();
-            }
+            
         }
     }
 }

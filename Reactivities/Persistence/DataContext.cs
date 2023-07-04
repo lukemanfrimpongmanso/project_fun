@@ -12,9 +12,14 @@ namespace Persistence
 
         public DbSet<Activity> Activities{ get; set; }
 
-        public global::System.Threading.Tasks.Task SaveChangesAsync()
-        {
-            throw new global::System.NotImplementedException();
-        }
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        // Implement the logic to save changes asynchronously
+        // For example:
+        // return base.SaveChangesAsync(cancellationToken);
+        // Or:
+        // return base.SaveChangesAsync(true, cancellationToken);
+        return base.SaveChangesAsync(cancellationToken);
+    }
     }
 }
