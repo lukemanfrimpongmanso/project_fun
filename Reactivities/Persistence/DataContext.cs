@@ -11,5 +11,10 @@ namespace Persistence
 
 
         public DbSet<Activity> Activities{ get; set; }
+
+        public global::System.Threading.Tasks.Task SaveChangesAsync()
+        {
+            throw new global::System.NotImplementedException();
+        }
     }
 }
