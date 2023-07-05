@@ -56,9 +56,21 @@
               "target": "Package",
               "version": "[5.1.2, )"
             },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -148,9 +160,21 @@
               "target": "Package",
               "version": "[11.1.0, )"
             },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Formatters.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
@@ -207,6 +231,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -266,6 +300,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.8, )"

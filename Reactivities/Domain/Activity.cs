@@ -15,5 +15,10 @@ namespace Domain
         public string  City { get; set; }
 
         public string Venue { get; set; }
+
+        public static explicit operator global::Microsoft.AspNetCore.Mvc.ActionResult<global::System.Object>(Activity v)
+        {
+            throw new global::System.NotImplementedException();
+        }
     }
 }
