@@ -6,21 +6,23 @@ interface Props {
   closeForm: () => void;
   activity: Activity | undefined;
   createOrEdit: (activity: Activity) => void;
+  submitting: boolean;
 }
 
 const ActivityForm = ({
   closeForm,
   activity: selectedActivity,
   createOrEdit,
+  submitting,
 }: Props) => {
   const initialState = selectedActivity ?? {
-    id: 'id',
-    title: 'title',
-    category: 'category',
-    description: 'description',
-    date: 'date',
-    city: 'city',
-    venue: 'venue'
+    id: '',
+    title: '',
+    category: '',
+    description: '',
+    date: '',
+    city: '',
+    venue: '',
   };
 
   const [activity, setActivity] = useState(initialState);
@@ -55,28 +57,36 @@ const ActivityForm = ({
         label="Description"
         variant="outlined"
         value={activity.description}
-        name="Description"
+        name="description"
         onChange={handleInputChange}
       />
       <TextField
         label="Category"
         variant="outlined"
         value={activity.category}
-        name="Category"
+        name="category"
         onChange={handleInputChange}
       />
       <TextField
         label="Date"
         variant="outlined"
         value={activity.date}
-        name="Date"
+        name="date"
+        type="date"
         onChange={handleInputChange}
       />
       <TextField
         label="City"
         variant="outlined"
         value={activity.city}
-        name="City"
+        name="city"
+        onChange={handleInputChange}
+      />
+      <TextField
+        label="venue"
+        variant="outlined"
+        value={activity.venue}
+        name="venue"
         onChange={handleInputChange}
       />
 

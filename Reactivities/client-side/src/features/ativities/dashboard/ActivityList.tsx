@@ -14,13 +14,20 @@ import {
 interface Props {
   activities: Activity[];
   selectActivity: (id: string) => void;
+  deleteActivity: (id: string) => void;
+  submitting: boolean;
 }
 
-const ActivityList = ({ activities, selectActivity }: Props) => {
+const ActivityList = ({
+  activities,
+  selectActivity,
+  deleteActivity,
+  submitting,
+}: Props) => {
   return (
     <Card>
       {activities.map((activity) => (
-        <CardContent>
+        <CardContent key={activity.id}>
           <Typography variant="h5" gutterBottom>
             {activity.title}
           </Typography>
@@ -41,7 +48,14 @@ const ActivityList = ({ activities, selectActivity }: Props) => {
                   component="a"
                   clickable
                   color="primary"
-                  onClick={() => selectActivity(activity.id)}      
+                  onClick={() => selectActivity(activity.id)}
+                />
+                <Chip
+                  label="Delete"
+                  component="a"
+                  clickable
+                  color="secondary"
+                  onClick={() => deleteActivity(activity.id)}
                 />
               </Box>
             </Grid>

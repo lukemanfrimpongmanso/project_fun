@@ -14,6 +14,8 @@ interface Props {
   openForm: (id: string) => void;
   closeForm: () => void;
   createOrEdit: (activity: Activity) => void;
+  deleteActivity: (id: string) => void;
+  submitting: boolean;
 }
 
 export const AcitivityDashboard = ({
@@ -24,7 +26,9 @@ export const AcitivityDashboard = ({
   editMode,
   openForm,
   closeForm,
-  createOrEdit
+  createOrEdit,
+  deleteActivity,
+  submitting,
 }: Props) => {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -34,6 +38,8 @@ export const AcitivityDashboard = ({
             <ActivityList
               activities={activities}
               selectActivity={selectActivity}
+              deleteActivity={deleteActivity}
+              submitting= {submitting}
             />
           </Paper>
         </Grid>
@@ -47,7 +53,12 @@ export const AcitivityDashboard = ({
               />
             )}
             {editMode && (
-              <ActivityForm closeForm={closeForm} activity={selectedActivity} createOrEdit={createOrEdit}/>
+              <ActivityForm
+                closeForm={closeForm}
+                activity={selectedActivity}
+                createOrEdit={createOrEdit}
+                submitting={submitting}
+              />
             )}
           </Paper>
         </Grid>
